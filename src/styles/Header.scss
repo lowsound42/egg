@@ -1,0 +1,29 @@
+
+.eggHeader {
+  background-color: #ffd963	;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+  &__img {
+    width: 15%;
+    height: 15%;
+    margin-top: 5px;
+  }
+
+  &__nav {
+
+    &-list {
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      &--item {
+        margin-right: 1rem;
+        text-decoration: none;
+      }
+    }
+  }  
+}
