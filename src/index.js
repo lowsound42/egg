@@ -7,9 +7,9 @@ import {
     Link
   } from "react-router-dom";
 import './index.css';
-import About from './components/About';
-import Home from './components/Home';
-import Join from './components/Join';
+import About from './components-new/About';
+import Home from './components-new/Home';
+import Join from './components-new/Join';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
