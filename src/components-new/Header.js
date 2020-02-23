@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/home.scss'; 
+import '../styles/header.scss'; 
 import {
   BrowserRouter as Router,
   Link
