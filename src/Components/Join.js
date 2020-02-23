@@ -1,5 +1,10 @@
 import React from 'react';
+import Header from './Header';
 
 export default function Join() {
-    return <h2>Join</h2>;
-  }
+    return (
+        <>
+        <Header />
+        <h2>Join</h2>
+        </>
+    );  }
