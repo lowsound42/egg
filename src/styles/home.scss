@@ -1,0 +1,68 @@
+.hero {
+    position: relative;
+
+    &__image {
+        height: 90vh;
+        width: 100%;
+    }
+
+    &__button {
+        position: absolute;
+        top: 70%;
+        left: 35%;
+        display: inline;
+        height: 3rem;
+        width: 8rem;
+        background-color: #FFD963;
+        color: white;
+        border-radius: 10px;
+        font-size: 1rem;
+        border: none;
+        text-shadow: 
+        1px   0  0   #000, 
+       -1px   0  0   #000, 
+        0    1px 0   #000, 
+        0   -1px 0   #000, 
+        1px  1px 0   #000, 
+       -1px -1px 0   #000, 
+        1px -1px 0   #000, 
+       -1px  1px 0   #000,
+        1px  1px 5px #000; 
+    }
+
+    &__text {
+        position: absolute;
+        top: 23%;
+        left: 2rem;
+        color: #ffd963;
+        font-size: 3rem;
+        text-shadow: 
+        2px   0  0   #000, 
+       -2px   0  0   #000, 
+        0    2px 0   #000, 
+        0   -2px 0   #000, 
+        1px  1px 0   #000, 
+       -1px -1px 0   #000, 
+        1px -1px 0   #000, 
+       -1px  1px 0   #000,
+        1px  1px 5px #000; 
+        
+        &-sub {
+            position: absolute;
+            top: 46%;
+            left: 2rem;
+            font-size: 3rem;
+            color: #ffd963;
+            text-shadow: 
+            2px   0  0   #000, 
+           -2px   0  0   #000, 
+            0    2px 0   #000, 
+            0   -2px 0   #000, 
+            1px  1px 0   #000, 
+           -1px -1px 0   #000, 
+            1px -1px 0   #000, 
+           -1px  1px 0   #000,
+            1px  1px 5px #000;        
+        }
+    }
+}
