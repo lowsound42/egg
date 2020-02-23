@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Styles/App.scss';
+import '../styles/Header.scss';
 import {
   BrowserRouter as Router,
   Switch,
@@ -7,19 +7,20 @@ import {
   Link
 } from "react-router-dom";
 
-export default function App() {
-  return (
+export default function Header() {
+
+return (
     <Router>
-      <div>
-        <nav>
-          <ul>
-            <li>
+      <div className='eggHeader'>
+        <nav className='eggHeader__nav'>
+          <ul className='eggHeader__nav-list'>
+            <li className='eggHeader__nav-list--item'>
               <Link to="/">Home</Link>
             </li>
-            <li>
+            <li className='eggHeader__nav-list--item'>
               <Link to="/about">About</Link>
             </li>
-            <li>
+            <li className='eggHeader__nav-list--item'>
               <Link to="/join">Join</Link>
             </li>
           </ul>
@@ -44,13 +45,13 @@ export default function App() {
 }
 
 function Home() {
-  return <h2>Home</h2>;
-}
-
-function About() {
-  return <h2>About</h2>;
-}
-
-function Join() {
-  return <h2>Users</h2>;
-}
+    return <h2>Home</h2>;
+  }
+  
+  function About() {
+    return <h2>About</h2>;
+  }
+  
+  function Join() {
+    return <h2>Users</h2>;
+  }
