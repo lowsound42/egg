@@ -2,6 +2,8 @@ import React from 'react';
 import Header from './Header';
 import hero from '../assets/phonehen.jpg';
 import '../styles/home.scss';
+import '../styles/header.scss'; 
+
 
 export default function Home() {
     return (
