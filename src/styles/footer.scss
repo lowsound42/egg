@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 0.5rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+
+    &__section {
+
+            &-list {
+                list-style-type: none;
+    }
+}
+}
