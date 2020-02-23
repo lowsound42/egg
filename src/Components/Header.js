@@ -6,12 +6,17 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import eggImg from '../assets/eggheads.png';
+import About from './About';
+import Home from './Home';
+import Join from './Join';
 
 export default function Header() {
 
 return (
     <Router>
       <div className='eggHeader'>
+        <img className='eggHeader__img' src={eggImg} alt='Logo made of three cartoony eggs' />
         <nav className='eggHeader__nav'>
           <ul className='eggHeader__nav-list'>
             <li className='eggHeader__nav-list--item'>
@@ -44,14 +49,3 @@ return (
   );
 }
 
-function Home() {
-    return <h2>Home</h2>;
-  }
-  
-  function About() {
-    return <h2>About</h2>;
-  }
-  
-  function Join() {
-    return <h2>Users</h2>;
-  }

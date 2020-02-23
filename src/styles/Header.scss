@@ -3,12 +3,17 @@
 }
 
 .eggHeader {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #ffd963	;
+  min-height: 10vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   font-size: calc(10px + 2vmin);
   color: white;
+
+  &__img {
+    width: 10%;
+    height: 10%;
+  }
 
   &__nav-list {
     display: flex;
@@ -20,18 +25,5 @@
       margin-right: 1rem;
       text-decoration: none;
     }
-  }
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
   }
 }
