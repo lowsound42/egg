@@ -13,13 +13,13 @@
     }
 
     &__button {
-        margin-top: 20%;
+        margin-top: 2rem;
         height: 3rem;
         width: 8rem;
         background-color: #FFD963;
         color: white;
         border-radius: 10px;
-        font-size: 1rem;
+        font-size: 1.2rem;
         border: none;
         text-shadow: 
         1px   0  0   #000, 
@@ -33,14 +33,14 @@
         1px  1px 5px #000; 
 
         @include small-desktop {
-            margin-top: 40%;
+            margin-top: 5rem;
         }
     }
 
     &__text {
-        margin-top: 6rem;
+        margin-top: 5rem;
         color: #ffd963;
-        font-size: 3rem;
+        font-size: 2rem;
         text-shadow: 
         2px   0  0   #000, 
        -2px   0  0   #000, 
@@ -52,8 +52,13 @@
        -1px  1px 0   #000,
         1px  1px 5px #000; 
 
+        @include small-desktop {
+            margin-top: 9rem;
+            font-size: 4rem;
+        }
+
         &-sub {
-            font-size: 3rem;
+            font-size: 2rem;
             color: #ffd963;
             text-shadow: 
             2px   0  0   #000, 
@@ -64,7 +69,11 @@
            -1px -1px 0   #000, 
             1px -1px 0   #000, 
            -1px  1px 0   #000,
-            1px  1px 5px #000;        
+            1px  1px 5px #000;
+            
+            @include small-desktop {
+                font-size: 4rem;
+            }
         }
     }
 }
