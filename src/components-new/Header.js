@@ -22,15 +22,15 @@ return (
         <img className='eggHeader__hamburger' onClick={() => clicked()} src={menu} alt='hamburger menu button' />
       </div>
       <nav className={open ? 'active' : 'nav'}>
-      <ul className='nav-list'>
-        <li className='nav-list--item'>
-          <Link to="/">Home</Link>
+      <ul className='active-list'>
+        <li className='active-list--item'>
+          <Link className='active-list--item_name' to="/">Home</Link>
         </li>
-        <li className='nav-list--item'>
-          <Link to="/about">About</Link>
+        <li className='active-list--item'>
+          <Link className='active-list--item_name' to="/about">About</Link>
         </li>
-        <li className='nav-list--item'>
-          <Link to="/join">Join</Link>
+        <li className='active-list--item'>
+          <Link className='active-list--item_name' to="/join">Join</Link>
         </li>
       </ul>
     </nav>
