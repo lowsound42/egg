@@ -1,8 +1,18 @@
 @import './mixins.scss';
 @import './fonts.scss';
 
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
 .hero {
-    margin: 0rem 1rem 0rem 1rem;
+    margin: 6rem 1rem 0rem 1rem;
     text-align: center;
     height: 50vh;
     background-size: cover;

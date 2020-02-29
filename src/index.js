@@ -8,7 +8,7 @@ import {
   } from "react-router-dom";
 import './index.css';
 import About from './components-new/About';
-import Home from './components-new/Home';
+import Main from './components-new/Main';
 import Join from './components-new/Join';
 import * as serviceWorker from './serviceWorker';
 
@@ -22,7 +22,7 @@ ReactDOM.render(
       <Join />
     </Route>
     <Route path="/">
-      <Home />
+      <Main />
     </Route>
   </Switch>
 </Router>
