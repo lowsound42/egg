@@ -3,7 +3,7 @@
 .hero {
     text-align: center;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     background-image: url('../assets/phonehen.jpg');
     background-repeat: no-repeat;
 
@@ -40,7 +40,7 @@
     &__text {
         margin-top: 5rem;
         color: #ffd963;
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-shadow: 
         2px   0  0   #000, 
        -2px   0  0   #000, 
@@ -58,7 +58,7 @@
         }
 
         &-sub {
-            font-size: 2rem;
+            font-size: 1.5rem;
             color: #ffd963;
             text-shadow: 
             2px   0  0   #000, 
