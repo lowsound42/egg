@@ -1,29 +1,41 @@
-import React from 'react';
+import React, {useState} from 'react';
 import '../styles/header-new.scss'; 
 import {
   BrowserRouter as Router,
   Link
 } from "react-router-dom";
+import menu from '../assets/menu1-512.png';
 
 export default function Header() {
 
+const [open, setOpen] = useState(false);
+
+let clicked = () => {
+  setOpen(!open);
+}
+
 return (
+  <>
+  <div className='header__container'>
       <div className='eggHeader'>
         <img className='eggHeader__img' src='https://www.goodfreephotos.com/svgfiles/final469-fried-egg.svg' alt='cartoony egg logo' />
-        <nav className='eggHeader__nav'>
-          <ul className='eggHeader__nav-list'>
-            <li className='eggHeader__nav-list--item'>
-              <Link to="/">Home</Link>
-            </li>
-            <li className='eggHeader__nav-list--item'>
-              <Link to="/about">About</Link>
-            </li>
-            <li className='eggHeader__nav-list--item'>
-              <Link to="/join">Join</Link>
-            </li>
-          </ul>
-        </nav>
+        <img className='eggHeader__hamburger' onClick={() => clicked()} src={menu} alt='hamburger menu button' />
       </div>
+      <nav className={open ? 'active' : 'nav'}>
+      <ul className='nav-list'>
+        <li className='nav-list--item'>
+          <Link to="/">Home</Link>
+        </li>
+        <li className='nav-list--item'>
+          <Link to="/about">About</Link>
+        </li>
+        <li className='nav-list--item'>
+          <Link to="/join">Join</Link>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  </>
       )
 }
 
