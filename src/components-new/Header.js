@@ -19,6 +19,7 @@ return (
   <div className='header__container'>
       <div className='eggHeader'>
         <img className='eggHeader__img' src='https://www.goodfreephotos.com/svgfiles/final469-fried-egg.svg' alt='cartoony egg logo' />
+        <p className='eggHeader__name'>Egg</p>
         <img className='eggHeader__hamburger' onClick={() => clicked()} src={menu} alt='hamburger menu button' />
       </div>
       <nav className={open ? 'active' : 'nav'}>
