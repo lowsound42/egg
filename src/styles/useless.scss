@@ -1,0 +1,36 @@
+@import './mixins.scss';
+@import './fonts.scss';
+
+
+.useless {
+    margin: 1rem 1rem 0rem 1rem;
+    text-align: left;
+    height: 50vh;
+    background-color: #FFFDE9;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+    @include small-desktop {
+        background-image: url('../assets/desktophens.jpg');
+        background-size: cover;
+    }
+
+    &__header {
+        font-family: Roboto;
+        margin: 0rem 1rem 0rem 1rem;
+        padding-top: 4rem;
+        font-size: 1rem;
+        color: #ffd963;
+        font-size: 1rem;
+        text-shadow: 
+        2px   0  0   #000, 
+       -2px   0  0   #000, 
+        0    2px 0   #000, 
+        0   -2px 0   #000, 
+        1px  1px 0   #000, 
+       -1px -1px 0   #000, 
+        1px -1px 0   #000, 
+       -1px  1px 0   #000,
+        1px  1px 5px #000;        
+    }
+}

@@ -1,7 +1,9 @@
 @import './mixins.scss';
+@import './fonts.scss';
 
 .eggHeader {
-    background-color: #ffd963	;
+    font-family: Roboto;
+    background-color: #FDC900	;
     min-height: 10vh;
     display: flex;
     flex-direction: row;

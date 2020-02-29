@@ -1,11 +1,14 @@
 @import './mixins.scss';
+@import './fonts.scss';
 
 .hero {
+    margin: 0rem 1rem 0rem 1rem;
     text-align: center;
-    height: 100vh;
-    width: 100vw;
-    background-image: url('../assets/phonehen.jpg');
+    height: 50vh;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-color: #FAE5C0;
+    border-radius: 10px;
 
     @include small-desktop {
         background-image: url('../assets/desktophens.jpg');
@@ -13,10 +16,11 @@
     }
 
     &__button {
+        font-family: Roboto;
         margin-top: 2rem;
         height: 3rem;
         width: 8rem;
-        background-color: #FFD963;
+        background-color: #FDC900;
         color: white;
         border-radius: 10px;
         font-size: 1.2rem;
@@ -38,9 +42,10 @@
     }
 
     &__text {
-        margin-top: 5rem;
+        font-family: Roboto;
+        padding-top: 5rem;
         color: #ffd963;
-        font-size: 1.5rem;
+        font-size: 1rem;
         text-shadow: 
         2px   0  0   #000, 
        -2px   0  0   #000, 
@@ -58,7 +63,8 @@
         }
 
         &-sub {
-            font-size: 1.5rem;
+            font-family: Roboto;
+            font-size: 1rem;
             color: #ffd963;
             text-shadow: 
             2px   0  0   #000, 
