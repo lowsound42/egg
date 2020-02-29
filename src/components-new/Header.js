@@ -30,7 +30,7 @@ return (
           <Link className='active-list--item_name' to="/about">About</Link>
         </li>
         <li className='active-list--item'>
-          <Link className='active-list--item_name' to="/join">Join</Link>
+          <Link className='active-list--item_name' to="/join">Hatch with Us</Link>
         </li>
       </ul>
     </nav>
