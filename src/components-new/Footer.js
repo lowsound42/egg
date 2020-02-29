@@ -6,23 +6,23 @@ export default function Footer() {
         <div className='footer'>
             <div className='footer__section'>
                 <li className='footer__section-list'>
-                    <ul>About Us</ul>
-                    <ul><a href=''>About</a></ul>
-                    <ul><a href=''>Join Us</a></ul>
+                    <ul className='footer__section-list--title'>About Us</ul>
+                    <ul className='footer__section-list--item'><a href=''>About</a></ul>
+                    <ul className='footer__section-list--item'><a href=''>Join Us</a></ul>
                 </li>
             </div>
             <div className='footer__section'>
                 <li className='footer__section-list'>
-                    <ul>Follow Us</ul>
-                    <ul><a href=''>Facebook</a></ul>
-                    <ul><a href=''>Instagram</a></ul>
-                    <ul><a href=''>Twitter</a></ul>
+                    <ul className='footer__section-list--title'>Follow Us</ul>
+                    <ul className='footer__section-list--item'><a href=''>Facebook</a></ul>
+                    <ul className='footer__section-list--item'><a href=''>Twitter</a></ul>
+                    <ul className='footer__section-list--item'><a href=''>Instagram</a></ul>
                 </li>
             </div>
             <div className='footer__section'>
                 <li className='footer__section-list'>
-                    <ul>Contact Us</ul>
-                    <ul><a href=''>Email</a></ul>
+                    <ul className='footer__section-list--title'>Contact Us</ul>
+                    <ul className='footer__section-list--item'><a href=''>Email</a></ul>
                 </li>
             </div>
         </div>
