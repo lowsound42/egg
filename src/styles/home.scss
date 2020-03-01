@@ -11,8 +11,6 @@
     border-radius: 10px;
 
     @include small-desktop {
-        background-image: url('../assets/desktophens.jpg');
-        background-size: cover;
     }
 
     &__button {
@@ -37,13 +35,13 @@
         1px  1px 5px #000; 
 
         @include small-desktop {
-            margin-top: 5rem;
+            margin-top: 1rem;
         }
     }
 
     &__text {
         font-family: Roboto;
-        padding-top: 5rem;
+        padding-top: 4rem;
         color: #ffd963;
         font-size: 1rem;
         text-shadow: 
@@ -59,7 +57,7 @@
 
         @include small-desktop {
             margin-top: 9rem;
-            font-size: 4rem;
+            font-size: 3rem;
         }
 
         &-sub {
@@ -78,7 +76,7 @@
             1px  1px 5px #000;
             
             @include small-desktop {
-                font-size: 4rem;
+                font-size: 3rem;
             }
         }
     }
